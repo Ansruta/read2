@@ -41,7 +41,7 @@ export default class LoginScreen extends React.Component {
 
         <View style={styles.subContainer1}>
           <Text style={styles.title}>Bedtime Stories</Text>
-          <Image source = { require("../assets/icon.png")} style={styles.image} />
+          <Image source = { require("../icon.png")} style={styles.image} />
           <TextInput
               placeholder="programmer@whitehatjr.com"
               placeholderTextColor = "#ffff"
